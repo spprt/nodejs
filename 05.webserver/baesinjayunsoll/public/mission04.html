@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MISSION 04</title>
+</head>
+<body>
+    <h1>나의 메모</h1>
+    <br>
+    <form method="post" enctype="multipart/form-data" action="/process/memo">
+        <table>
+            <tr>
+                <td><label>작성자</label></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td><label>작성일시</label></td>
+                <td><input type="text" name="date"></td>
+            </tr>
+            <tr>
+                <td><label>내용</label></td>
+                <td><input type="text" name="content"></td>
+            </tr>
+            <tr>
+                <td><label>파일</label></td>
+                <td><input type="file" name="photo"></td>
+            </tr>
+        </table>
+        <input type="submit" value="저장" name="">
+    </form>
+</body>
+</html>
